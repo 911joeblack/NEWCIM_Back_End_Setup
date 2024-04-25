@@ -13,10 +13,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-/*
-A sample definition for atble to configure prisma 
-Once we start building the db
-Be sure to add all tables and their structure to this file
+
+//A sample definition for atble to configure prisma 
+//Once we start building the db
+//Be sure to add all tables and their structure to this file
 
 model User {
   id    Int      @id @default(autoincrement())
@@ -24,7 +24,6 @@ model User {
   email String   @unique
 }
 
-After defining the models use the command:
-npx prisma generate 
-This will generate the prisma client
-*/
+//After defining the models use the command:
+//npx prisma generate 
+//This will generate the prisma client
